@@ -1,0 +1,20 @@
+{
+  "name": "cms_project/cms",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Dmitri",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+        "cms\\": "vendor/cms",
+        "app\\": "app"
+    }
+  }
+}
