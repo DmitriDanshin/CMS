@@ -19,4 +19,4 @@ $app_path = str_replace('/public/', '', $app_path);
 define('PATH', $app_path);
 define('ADMIN', PATH . '/admin');
 
-require_once './vendor/autoload.php';
+require_once '../vendor/autoload.php';
