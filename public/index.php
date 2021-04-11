@@ -8,6 +8,3 @@ require_once CONF . '/routes.php';
 
 $app = new App();
 
-
-debug(\cms\Router::getRoutes());
-
