@@ -4,6 +4,7 @@
 namespace cms;
 
 
+
 class ErrorHandler
 {
     public function __construct()
